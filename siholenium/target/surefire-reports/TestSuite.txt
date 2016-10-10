@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 266.463 sec <<< FAILURE!
+casoAgregarNuevaConfiguracionProyecto(com.praxis.siho.test.smoke.PspSmokeTest)  Time elapsed: 4.312 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<Registro almacenado correctamente.> but was:<Nombre del ciclo existente para el proyecto seleccionado, Ingresa uno diferente.>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.praxis.siho.test.smoke.PspSmokeTest.casoAgregarNuevaConfiguracionProyecto(PspSmokeTest.java:44)
